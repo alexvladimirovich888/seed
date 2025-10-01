@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GROW LIKE A WEED </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+<header>
+  <h1>GROW LIKE A WEED</h1>
+  <a href="https://x.com/gardener_grow" class="x-btn" target="_blank">
+    <img src="./img/tvitter.png" alt="Twitter/X logo"/>
+  </a>
+</header>
+
+      <div class="main-content">
+        <div class="garden-grid" id="gardenGrid">
+          </div>
+
+        <div class="control-panel">
+          <h2>PLANT YOUR SEED</h2>
+
+          <div id="seedOptions">
+<div class="seed-option" data-seed="luckberry">
+  <img 
+    src="./img/Green.png"
+    class="seed-icon" 
+  />
+  <div class="seed-desc">Luckberry</div>
+  <div class="seed-option-tooltip">
+    <div class="tooltip-title">LUCKBERRY</div>
+    <div class="tooltip-desc">Sprouts in random spots. Grows faster during chaos.</div>
+    <div class="tooltip-personality">Unpredictable, playful</div>
+  </div>
+</div>
+
+            <div class="seed-option" data-seed="heartseed">
+            
+  <img 
+    src="./img/Red.png"
+    class="seed-icon" 
+  />
+              <div class="seed-desc">Heartseed</div>
+              <div class="seed-option-tooltip">
+                <div class="tooltip-title">HEARTSEED</div>
+                <div class="tooltip-desc">
+                  Beats like a pulse. Bonds with nearby seeds.
+                </div>
+                <div class="tooltip-personality">Warm, protective</div>
+              </div>
+            </div>
+
+            <div class="seed-option" data-seed="fortuna">
+                <img 
+    src="./img/yellow.png"
+    class="seed-icon" 
+  />
+              <div class="seed-desc">Fortuna Sprout</div>
+              <div class="seed-option-tooltip">
+                <div class="tooltip-title">FORTUNA SPROUT</div>
+                <div class="tooltip-desc">
+                  Born from pure chance. Sometimes doubles.
+                </div>
+                <div class="tooltip-personality">Risky, playful</div>
+              </div>
+            </div>
+
+            <div class="seed-option" data-seed="dreamroot">
+                <img 
+    src="./img/Blue.png"
+    class="seed-icon" 
+  />
+              <div class="seed-desc">Dreamroot</div>
+              <div class="seed-option-tooltip">
+                <div class="tooltip-title">DREAMROOT</div>
+                <div class="tooltip-desc">
+                  Grows while you rest. Feeds on dreams.
+                </div>
+                <div class="tooltip-personality">Quiet, mysterious</div>
+              </div>
+            </div>
+
+<div class="seed-option" data-seed="sparkleaf">
+    <img 
+    src="./img/orange.png"
+    class="seed-icon" 
+  />
+  <div class="seed-desc">Sparkleaf</div>
+  <div class="seed-option-tooltip">
+    <div class="tooltip-title">SPARKLEAF</div>
+    <div class="tooltip-desc">Ignites others with inspiration. Burns fast.</div>
+    <div class="tooltip-personality">Intense, creative</div>
+  </div>
+</div>
+
+          <input
+            type="text"
+            id="usernameInput"
+            placeholder="your sol adress"
+            style="text-align: center"
+          />
+
+          <button id="plantButton">PLANT YOUR SEED</button>
+        </div>
+      </div>
+
+      <div class="seed-lore">
+        <h2 class="lore-title">SEED LORE</h2>
+
+        <div class="lore-item" style="border-left-color: #80c975">
+          <h3><LUCKBERRY>LUCKBERRY</h3>
+          <p>
+            Sprouts in random spots. Grows faster during chaos. You don't find
+            it — it finds you.
+          </p>
+          <p>
+            <strong>Personality:</strong> Unpredictable, playful, contagious
+          </p>
+        </div>
+
+        <div class="lore-item" style="border-left-color: #cc4242">
+          <h3>HEARTSEED</h3>
+          <p>
+            Beats like a pulse. Bonds with nearby seeds and helps them grow
+            stronger.
+          </p>
+          <p><strong>Personality:</strong> Warm, steady, protective</p>
+        </div>
+
+        <div class="lore-item" style="border-left-color: #e8c900">
+          <h3>FORTUNA SPROUT</h3>
+          <p>Born from pure chance. Sometimes doubles, sometimes vanishes.</p>
+          <p><strong>Personality:</strong> Risky, playful, rare</p>
+        </div>
+
+        <div class="lore-item" style="border-left-color: #6643a9">
+          <h3>DREAMROOT</h3>
+          <p>Grows while you rest. Feeds on dreams, ideas, and moonlight.</p>
+          <p><strong>Personality:</strong> Quiet, deep, mysterious</p>
+        </div>
+
+        <div class="lore-item" style="border-left-color: #f4822a">
+          <h3>SPARKLEAF</h3>
+          <p>
+            Ignites others with inspiration. Burns fast, but leaves light
+            behind.
+          </p>
+          <p><strong>Personality:</strong> Intense, creative, short-lived</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="audio-control" id="audioControl">🔊</div>
+<audio id="bgMusic" loop>
+    <source src="./music/With You - Everet Almond.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+    <script src="scrypt.js"></script>
+  </body>
+</html>
